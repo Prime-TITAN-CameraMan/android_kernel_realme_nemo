@@ -8,8 +8,7 @@ TANGGAL=$(date +"%Y%m%d-%H")
 export LC_ALL=C && export USE_CCACHE=1
 export ARCH=arm64
 if [ ! -d "clang" ]; then
-    wget https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86/+archive/refs/tags/android-14.0.0_r2/clang-r487747c.tar.gz -O "aosp-clang.tar.gz"
-    mkdir clang && tar -xf aosp-clang.tar.gz -C clang && rm -rf aosp-clang.tar.gz
+    git clone https://gitlab.com/crdroidandroid/android_prebuilts_clang_host_linux-x86_clang-r547379.git clang --depth=1
 fi
 
 [ -d "out" ] && rm -rf out || mkdir -p out
