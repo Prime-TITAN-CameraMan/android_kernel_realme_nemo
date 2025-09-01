@@ -1,6 +1,6 @@
 #!/bin/bash
 
-function compile() 
+function compile()
 {
 rm -rf AnyKernel
 source ~/.bashrc && source ~/.profile
@@ -13,7 +13,7 @@ fi
 
 [ -d "out" ] && rm -rf out || mkdir -p out
 
-make O=out ARCH=arm64 RM6785_defconfig
+make O=out ARCH=arm64 nemo_defconfig
 
 PATH="${PWD}/clang/bin:${PATH}" \
 make -j$(nproc --all) O=out \
@@ -27,7 +27,7 @@ function zipping()
 git clone --depth=1 https://github.com/kardebayan/AnyKernel3.git AnyKernel
 cp out/arch/arm64/boot/Image.gz AnyKernel
 cd AnyKernel
-zip -r9 Stormbreaker-RMX2001L1-${TANGGAL}.zip *
+zip -r9 Stormbreaker-nemo-${TANGGAL}.zip *
 }
 
 compile
