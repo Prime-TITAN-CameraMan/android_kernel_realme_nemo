@@ -1,5 +1,11 @@
 #!/bin/bash
 
+# Tips for beginners
+# Modify the script as your needs
+# Use nemo_defconfig as base
+# After integrating and applying patches of KSU:
+# Running `make mrproper` will say KSU Hooks are not included, ignore that, and compile your kernel
+
 function compile()
 {
 rm -rf AnyKernel
