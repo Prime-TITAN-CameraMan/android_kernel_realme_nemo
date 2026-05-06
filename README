@@ -1,4 +1,7 @@
 Kernel for RM6785 devices.
+KernelSU-Next & Droidspace patch & hook setup files are included in ksu_next branch.
+KernelSU-Next, Droidpsace & SuSFS patch & hook setup files are included in ksu_next-susfs branch.
+Read [Release](https://github.com/Prime-TITAN-CameraMan/android_kernel_realme_nemo/releases) carefully before flashing.
 
 Linux kernel
 ============
