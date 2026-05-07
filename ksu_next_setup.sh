@@ -80,4 +80,4 @@ else
 fi
 
 echo "Done, now apply the ksu hooks from root/patches/ksu_next_hooks/* while being in the kernel root directory"
-echo "Add `CONFIG_KSU` to the defconfig
+echo "Add `CONFIG_KSU` to the defconfig"
