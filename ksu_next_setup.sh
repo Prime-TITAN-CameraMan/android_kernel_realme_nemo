@@ -83,3 +83,4 @@ echo 'CONFIG_KSU=y' >> arch/arm64/configs/nemo_defconfig
 echo 'CONFIG_KSU_MANUAL_HOOK=y' >> arch/arm64/configs/nemo_defconfig
 
 echo "Done, now apply the ksu hooks from root/patches/ksu_next_hooks/* while being in the kernel root directory"
+echo "Add `CONFIG_KSU` to the defconfig
