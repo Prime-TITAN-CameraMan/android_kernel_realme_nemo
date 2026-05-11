@@ -1,7 +1,7 @@
 ### Custom kernel for RM6785 devices
 Stormbreaker Kernel for Realme 6, 6i, 6s and Narzo
 
-- **`16.0` branch:**
+- **`main` branch:**
   - Default unmodified branch
   - Nothing included
 - **`ksu_next` branch:**
