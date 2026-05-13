@@ -1,5 +1,5 @@
 ### Custom kernel for RM6785 devices
-Stormbreaker Kernel for Realme 6, 6i, 6s and Narzo
+**Teto** Kernel for Realme 6, 6i, 6s and Narzo
 
 **This branch includes:**
   - KernelSU-Next setup script & integrated hooks in the source files
