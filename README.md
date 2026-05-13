@@ -2,11 +2,11 @@
 Stormbreaker Kernel for Realme 6, 6i, 6s and Narzo
 
 **This branch includes:**
-  - KernelSU-Next setup script & integrated hooks in source
+  - KernelSU-Next setup script & integrated hooks in the source files
   - Droidspace configuration files
 
 > [!NOTE]
-> SuSFS is not inlcuded
+> SuSFS is not included
 >
 > Add `CONFIG_KSU=y` and `CONFIG_KSU_MANUAL_HOOK=y` inside defconfig. Also if you ever run `make mrproper`, it will say that KSU hooks are not integrated, ignore it
 
