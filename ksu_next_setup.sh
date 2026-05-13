@@ -79,5 +79,4 @@ else
     setup_kernelsu "$@"
 fi
 
-echo "Done, now apply the ksu hooks from root/patches/ksu_next_hooks/ while being in the kernel root directory"
-echo "Add CONFIG_KSU to the defconfig"
+echo "Now add CONFIG_KSU=y & CONFIG_KSU_MANUAL_HOOK=y to the defconfig if haven't yet"
