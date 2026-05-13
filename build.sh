@@ -31,7 +31,7 @@ function zipping()
 git clone --depth=1 https://github.com/kardebayan/AnyKernel3.git AnyKernel
 cp out/arch/arm64/boot/Image.gz AnyKernel
 cd AnyKernel
-zip -r9 Stormbreaker-nemo-${TANGGAL}.zip *
+zip -r9 Teto-nemo-${TANGGAL}.zip *
 }
 
 compile
