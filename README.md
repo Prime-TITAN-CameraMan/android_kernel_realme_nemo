@@ -1,4 +1,4 @@
-### Custom kernel for RM6785 devices
+### Custom kernel for Nemo devices
 **Teto** Kernel for Realme 6, 6i, 6s and Narzo
 
 **This branch includes:**
